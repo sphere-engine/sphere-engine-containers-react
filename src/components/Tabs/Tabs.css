@@ -1,0 +1,33 @@
+.tabs {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tabs .tab {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #ddd;
+}
+
+.tabs .tab:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+.tabs .tab.active {
+    cursor: pointer;
+    background: #aaa;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.show {
+    display: block;
+}
