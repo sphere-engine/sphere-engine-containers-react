@@ -1,9 +1,9 @@
 import { useState } from "react";
-import EventSubscribe from './Panels/SDK/EventSubscribe.js';
-import EventList from './Panels/SDK/EventList.js';
-import SelectableList from "./Utils/SelectableList.js";
-import Alert from "./Utils/Alert.js";
-import { useWorkspace } from "./Context/OpenWorkspacesContext";
+import EventSubscribe from './EventSubscribe.js';
+import EventList from './EventList.js';
+import SelectableList from "../../Utils/SelectableList.js";
+import Alert from "../../Utils/Alert.js";
+import { useWorkspace } from "../../Context/OpenWorkspacesContext.js";
 
 const WorkspaceSDK = ({ workspaceId }) => {
 

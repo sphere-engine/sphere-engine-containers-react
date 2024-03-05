@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import EventLogs from './EventLogs.js';
-import WorkspaceSDK from '../../WorkspaceSDK.js';
+import WorkspaceSDK from './WorkspaceSDK.js';
 import SelectOpenWorkspaces from '../../Utils/SelectOpenWorkspaces.js';
 import { useEventLogs, useEventLogsDispatch } from '../../Context/EventLogsContext.js';
 
